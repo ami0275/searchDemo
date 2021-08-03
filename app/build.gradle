@@ -68,9 +68,10 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
 
+    //--Gson
     implementation 'com.google.code.gson:gson:2.8.6'
 
+    //--Views
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
-
     implementation 'androidx.cardview:cardview:1.0.0'
 }
